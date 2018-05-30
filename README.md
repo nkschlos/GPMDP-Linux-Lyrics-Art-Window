@@ -18,3 +18,6 @@ I've designed it to look good with my dark gnome environment, but you can custom
 
 The lyrics box can be a little finicky graphically, I might update this in the future.
 I've also added a google play music icon to the taskbar display so it looks integrated
+
+
+![alt text](https://github.com/nkschlos/GPMDP-LInux-Lyrics-Art-Window/blob/master/screenshot2.png?raw=true)
