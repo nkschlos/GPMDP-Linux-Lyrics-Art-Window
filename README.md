@@ -14,7 +14,7 @@ I would prefer if I could see *static* lyrics for my song, the album artwork tha
 
 The program queries the json data that GPMDP live-updates for lyrics, song metadata, and album art. It then displays the lyrics in a scrollbar window and the album art
 
-I've designed it to look good with my dark gnome environment, but you can customize it by adjusting the color hex codes
+I've designed it to look good with my dark gnome environment, but you can customize it by adjusting the color hex codes. It's also really designed for multiple-desktop users who wish to have a screen completely dedicated to music. By fixing the initial window locations, this ensures that you can set it to always start in a neat configuration.
 
 The lyrics box can be a little finicky graphically, I might update this in the future.
 I've also added a google play music icon to the taskbar display so it looks integrated
