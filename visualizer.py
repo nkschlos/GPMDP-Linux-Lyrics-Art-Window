@@ -30,6 +30,7 @@ while not ((lyrics) and (song) and (title) and (artist) and (album_art)):
             data = json.load(f)
     except:
         print('error')
+    #extract individual variables
     lyrics = data.get("songLyrics")
     song = data.get('song')
     title = song.get('title')
@@ -50,20 +51,23 @@ class Lyrics(QWidget):
     resized=QtCore.pyqtSignal()
     def __init__(self):
         super().__init__()
-
         self.initUI()
 
     def initUI(self):
         self.lbl = QLabel(self)
         self.setWindowTitle('Lyrics')
         self.show()
+        #print title and lyrics
         self.lbl.setText(text)
+        #center text in window
         self.lbl.setAlignment(QtCore.Qt.AlignCenter)
         #set default size
         self.resize(QtCore.QSize(390,990))
+        #adjust text size
         self.lbl.adjustSize()
         self.setStyleSheet("background-color: #333333; color: #999999")
-
+        
+        #define scrollbar object
         self.scrl = QScrollArea()
         #start continuous updating ever 500 ms
         self.update = QtCore.QTimer(self)
@@ -74,7 +78,7 @@ class Lyrics(QWidget):
         self.update.start(500)
         #self.resized.connect(self.realign)
 
-        #make scrollbar
+        #make window
         widget = QWidget()
         layout = QVBoxLayout(self)
         layout.addWidget(self.lbl)
@@ -85,6 +89,7 @@ class Lyrics(QWidget):
         scroll.setAlignment(QtCore.Qt.AlignCenter)
         scroll.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOn)
         scroll.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        #define stylesheet
         scroll.setStyleSheet('''
         QScrollBar:vertical
         {
