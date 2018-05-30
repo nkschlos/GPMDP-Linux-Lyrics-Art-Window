@@ -27,3 +27,7 @@ I've also added a google play music icon to the taskbar display so it looks inte
 
 I don't claim for this to be stable, fleshed-out, or concise, as I am not really a programmer.
 It's a simple tool that I wrote because I wanted it, and you might like it as well.
+
+Enjoy,
+Noah Schlossberger
+May 2018
