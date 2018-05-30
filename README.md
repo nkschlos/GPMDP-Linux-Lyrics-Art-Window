@@ -21,3 +21,9 @@ I've also added a google play music icon to the taskbar display so it looks inte
 
 
 ![alt text](https://github.com/nkschlos/GPMDP-LInux-Lyrics-Art-Window/blob/master/screenshot2.png?raw=true)
+
+
+
+
+I don't claim for this to be stable, fleshed-out, or concise, as I am not really a programmer.
+It's a simple tool that I wrote because I wanted it, and you might like it as well.
