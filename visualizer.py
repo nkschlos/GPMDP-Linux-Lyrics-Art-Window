@@ -8,9 +8,9 @@ from PyQt5 import  QtCore, QtGui
 
 #choose initial location for windows (top left corner), from left right and from top down
 #(play around with these until it starts in a place you like it)
-art_x = 2242
+art_x = 500
 art_y = 0
-lyric_x = 1800
+lyric_x = 0
 lyric_y = 0
 
 #initialize data
